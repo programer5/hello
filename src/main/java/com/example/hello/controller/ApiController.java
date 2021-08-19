@@ -17,7 +17,7 @@ public class ApiController {
         return "hello spring boot";
     }
 
-    @PostMapping("/post")
+//    @PostMapping("/post")
     public void post(@RequestBody PostRequestDto requestDto) {
         System.out.println(requestDto);
     }
@@ -54,7 +54,7 @@ public class ApiController {
     }
 
     // ResponseEntity
-    @PutMapping("/put")
+//    @PutMapping("/put")
     public ResponseEntity<User> put(@RequestBody User user) {
 
         return ResponseEntity.status(HttpStatus.CREATED).body(user);
