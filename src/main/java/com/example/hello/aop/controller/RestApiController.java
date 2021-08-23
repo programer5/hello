@@ -5,8 +5,8 @@ import com.example.hello.annotation.Timer;
 import com.example.hello.aop.dto.User;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
-@RequestMapping("/api")
+//@RestController
+//@RequestMapping("/api")
 public class RestApiController {
 
     @GetMapping("/get/{id}")

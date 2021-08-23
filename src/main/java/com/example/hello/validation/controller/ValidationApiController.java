@@ -16,7 +16,7 @@ import javax.validation.Valid;
 @RequestMapping("/api")
 public class ValidationApiController {
 
-    @PostMapping("/user")
+//    @PostMapping("/user")
     public ResponseEntity user(@Valid @RequestBody User user, BindingResult bindingResult) {
         System.out.println(user);
 
