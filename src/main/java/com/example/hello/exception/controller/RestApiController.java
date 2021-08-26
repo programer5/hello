@@ -9,7 +9,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@RestController
+//@RestController
 @RequestMapping("/api")
 @Validated
 public class RestApiController {
