@@ -12,7 +12,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 @Slf4j
-@Component
+//@Component
 public class GlobalFilter implements Filter {
 
     @Override
